@@ -1,0 +1,167 @@
+*{
+
+	box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+	
+}
+.head {
+	background-color: #636363;
+	max-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.header_content_inner{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.menu li {
+	display: inline;
+	margin-right: 100px;
+}
+li,
+a{
+	text-decoration: none;
+	list-style: none;
+	color: #a79614;
+	font-family: bold italic;
+}
+a:hover {
+	color: white;
+}
+.brending{
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: white;	
+}
+.header-about {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 38px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.circle{
+	display: flex;
+	margin-top:145px;
+}
+.about-main{
+	margin-top: 100px;
+	display: inline-block;
+	min-height: 350px;
+	text-align: center;
+}
+.about-agency-title{
+	display: flex;
+	justify-content: center;
+	font-size: 38px;
+	margin-bottom: 40px;
+}
+.about-agency-content{
+	display: flex;
+	justify-content: center;
+}
+.autograph{
+	display: flex;
+	justify-content: center;
+	padding:40px;
+}
+.bgc {
+	display: flex;
+	background: url('../img/bg.png') no-repeat center top/cover;
+	/* задание бекграунд картинки */
+	min-height: 260px;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+.about-main-content {
+	display: flex;
+	color:white;
+	text-align:flex-start;
+}
+.best_projects{
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.gallery {
+	padding: 5px;
+}
+.gallery-tittle-for{
+	font-size: 38px;
+	font-family: bold;
+}
+.gallery-content {
+	font-family: italic;
+}
+.row.tables{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.tables img{
+	margin: 40px 0px 40px 0px;
+	padding: 5px;
+	border: 1px solid #549fc2;
+}
+/* __________________________________________________________________________________________________________ */
+ .bgc-slider{
+	
+	background: url('../img/bg_2.png') no-repeat center top/cover;
+	/* задание бекграунд картинки */
+	min-height:250px;
+	color: white;
+
+} 
+.row{
+  max-width: 100%;
+  
+}
+.bgc-slider .row{
+  width: 100%;
+}
+
+.slider-items{
+	display: flex;
+	justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-top: 100px
+}
+.exerpt{
+	font-style: italic;
+}
+.parthners_2 {
+	display: flex;
+	justify-content: space-between;
+}
+.ssss {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 65px;
+	padding-bottom: 60px;
+}
+.latest_blog {
+	text-align: center;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+.second_slider img{
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+
+}
